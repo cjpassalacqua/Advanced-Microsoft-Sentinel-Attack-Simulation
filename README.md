@@ -54,18 +54,18 @@ This simulation generated multiple **high-severity incidents**, detected through
 
 # Attack Scenario: Full Kill Chain
 
-## 1. Persistence: Creation of Attacker Account**
+## 1. Persistence: Creation of Attacker Account
 
 A new identity is created to simulate an attacker foothold:
 
 * **User:** attacker-admin
 * **Role:** none initially
 
-🪵 **Logs Generated:** AuditLogs, Directory Provisioning
+**Logs Generated:** AuditLogs, Directory Provisioning
 
 ---
 
-## 2. Privilege Escalation: Global Administrator Assignment**
+## 2. Privilege Escalation: Global Administrator Assignment
 
 The attacker escalates privileges by assigning **Global Administrator**:
 
@@ -82,7 +82,7 @@ The attacker escalates privileges by assigning **Global Administrator**:
 
 ---
 
-## 3. OAuth Backdoor Creation**
+## 3. OAuth Backdoor Creation
 
 A malicious OAuth app is registered:
 
@@ -102,11 +102,11 @@ A malicious OAuth app is registered:
 
 ---
 
-## 4. Admin Consent + Privileged API Permissions**
+## 4. Admin Consent + Privileged API Permissions
 
 Attacker grants the backdoor app full directory control:
 
-* **Microsoft Graph → Directory.ReadWrite.All**
+* **Microsoft Graph → Directory.ReadWrite.All
 * **Admin Consent → Granted**
 
 **Detections Triggered:**
@@ -122,7 +122,7 @@ Attacker grants the backdoor app full directory control:
 
 ---
 
-## 5. Conditional Access Tampering**
+## 5. Conditional Access Tampering
 
 Attacker modifies CA policy to weaken authentication controls:
 
@@ -145,7 +145,7 @@ Actions:
 
 ---
 
-## 6. Suspicious Sign-Ins & Token Abuse**
+## 6. Suspicious Sign-Ins & Token Abuse
 
 Attacker signs in from:
 
