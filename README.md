@@ -1,15 +1,6 @@
 # Advanced-Microsoft-Sentinel-Attack-Simulation
 Privilege Escalation • Persistence • Conditional Access Tampering • OAuth Backdoor (Full Kill Chain)
 
-Below is a **professional, clean, GitHub-ready `README.md`** you can paste directly into your repo.
-It’s formatted with headings, badges, code blocks, diagrams, and MITRE mapping — exactly like top-tier cybersecurity portfolios.
-
----
-
-# Advanced Sentinel Attack Simulation
-
-### **Privilege Escalation • OAuth Backdoor • Conditional Access Tampering • UEBA / Fusion Analysis**
-
 ---
 
 ## Overview
